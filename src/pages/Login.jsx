@@ -48,7 +48,7 @@ const Login = () => {
 
   return (
     <>
-      <section className="heading mt-24 flex justify-center flex-col items-center text-center mb-2">
+      <section className="heading mt-24 flex justify-center flex-col items-center text-center mb-2 lg:p-2">
         <h1 className="inline-flex gap-2 text-2xl mb-4">
           <i className="ri-user-fill text-purple-500"></i> Login{" "}
         </h1>
