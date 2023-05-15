@@ -60,7 +60,7 @@ const Login = () => {
             <label>Enter your email:</label>
             <input
               type="email"
-              className="form-control w-[400px] p-[14px] bg-slate-800 border-[none] outline-0 text-[15px] rounded-[8px] mb-[10px] lg:w-[390px]"
+              className="form-control w-[400px] p-[14px] bg-slate-800 border-[none] outline-0 text-[15px] rounded-[8px] mb-[10px] lg:w-[350px]"
               id="email"
               name="email"
               value={email}
@@ -71,7 +71,7 @@ const Login = () => {
             <label>Enter your password:</label>
             <input
               type="password"
-              className="form-control w-[400px] p-[14px] bg-slate-800 border-[none] outline-0 text-[15px] rounded-[8px] mb-[10px] lg:w-[390px]"
+              className="form-control w-[400px] p-[14px] bg-slate-800 border-[none] outline-0 text-[15px] rounded-[8px] mb-[10px] lg:w-[350px]"
               id="password"
               name="password"
               value={password}
