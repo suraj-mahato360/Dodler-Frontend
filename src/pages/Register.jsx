@@ -54,13 +54,13 @@ const Register = () => {
 
   return (
     <>
-      <section className="heading mt-24 flex justify-center flex-col items-center text-center mb-2 lg:p-2">
+      <section className="heading mt-24 flex justify-center flex-col items-center text-center mb-2 ">
         <h1 className="inline-flex gap-2 text-2xl mb-4">
         <i className="ri-user-fill text-purple-500"></i> Register{" "}
         </h1>
         <p>Please create an account</p>
       </section>
-      <section className="form ">
+      <section className="form lg:p-2">
         <form onSubmit={onSubmit} className="flex justify-center flex-col items-center">
           <div className="form-group flex flex-col">
             <label>Enter your name:</label>
