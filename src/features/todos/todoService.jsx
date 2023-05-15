@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/todos/";
+const API_URL = "https://dodler.onrender.com/api/todos/";
 
 // create new todo
 
